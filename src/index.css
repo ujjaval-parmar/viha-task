@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+
+    input, select{
+        @apply border border-gray-300 w-full p-3 text-lg placeholder:uppercase
+    }
+
+    /* table{
+        @apply border border-collapse
+    } */
+
+    
+
+    tr{
+        @apply w-full py-2  border-b 
+    }
+
+    
+
+    th, td{
+        @apply w-full p-3 min-w-28 truncate
+    }
+
+
+
+    a.active{
+        @apply text-red-500 text-3xl
+    }
+
+}
