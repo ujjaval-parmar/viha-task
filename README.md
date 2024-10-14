@@ -3,7 +3,7 @@
 Made with Reactjs, TailwindCss and JSON-Server:
 
 
-Steps:
+Steps: <br/>
 1). Install Repo Code <br/>
 2). Type npm install <br/>
 3). Type npm run dev <br/>
